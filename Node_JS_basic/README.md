@@ -36,7 +36,8 @@ All of your functions/classes must be exported by using this format: module.expo
 ## Provided files
 
 database.csv
-'''
+
+```
 irstname,lastname,age,field
 Johann,Kerbrou,30,CS
 Guillaume,Salou,30,SWE
@@ -48,11 +49,11 @@ Joseph,Crisou,34,SWE
 Paul,Schneider,60,SWE
 Tommy,Schoul,32,SWE
 Katie,Shirou,21,CS
-'''
+```
 
 package.json
 
-'''
+```
 module.exports = {
   presets: [
     [
@@ -65,11 +66,11 @@ module.exports = {
     ],
   ],
 };
-'''
+```
 
 .eslintrc.js
 
-'''
+```
 module.exports = {
   env: {
     browser: false,
@@ -107,7 +108,7 @@ module.exports = {
     }
   ]
 };
-'''
+```
 
 and…
 
